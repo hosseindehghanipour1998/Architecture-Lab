@@ -25,6 +25,10 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="25"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="25"/>
     </file>
+    <file xil_pn:name="SRR_8_bit.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="18"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="18"/>
+    </file>
   </files>
 
   <properties>
