@@ -19,10 +19,9 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module DFF(d_in , clk , q_out);
-	input clk , d_in ;
+	input wire clk , d_in ;
 	output reg q_out ;
-	always @(posedge clk ) begin
-		
+	always @(posedge clk ) begin	
 		q_out = d_in ;
 	
 	end
