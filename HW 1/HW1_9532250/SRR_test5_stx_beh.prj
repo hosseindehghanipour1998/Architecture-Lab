@@ -1,0 +1,4 @@
+verilog isim_temp "DFF.v"
+verilog isim_temp "SRR_8_bit.v"
+verilog isim_temp "SRR_test5.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: SRR_8_bit.prj
 
@@ -45,8 +45,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\HW
 Parsing module <SRR_8_bit>.
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.10 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.48 secs
  
 --> 
 
