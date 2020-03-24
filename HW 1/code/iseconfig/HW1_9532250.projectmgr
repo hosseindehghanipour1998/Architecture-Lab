@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>SRR_8_bit (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/SRR_8_bit.v)</SelectedItem>
+         <SelectedItem>SRR_8_bit (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code/SRR_8_bit.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000cc000000020000000000000000000000000200000064ffffffff000000810000000300000002000000cc0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>SRR_8_bit (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/SRR_8_bit.v)</CurrentItem>
+      <CurrentItem>SRR_8_bit (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code/SRR_8_bit.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -23,13 +23,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -77,6 +77,7 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/DFF_test2 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|DFF_test2.v</ClosedNode>
+         <ClosedNode>/DFF_test2 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|code|DFF_Test1.v</ClosedNode>
          <ClosedNode>/SRR_Test1 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_Test1.v/uut - SRR_8_bit</ClosedNode>
          <ClosedNode>/SRR_test1 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_test1.v</ClosedNode>
          <ClosedNode>/SRR_test2 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_test2.v</ClosedNode>
@@ -86,15 +87,17 @@
          <ClosedNode>/SRR_test4 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_test4.v</ClosedNode>
          <ClosedNode>/SRR_test5 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_test5.v</ClosedNode>
          <ClosedNode>/SRR_test6 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|HW1_9532250|SRR_test6.v</ClosedNode>
+         <ClosedNode>/SRR_test6 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|code|SRR_test6.v</ClosedNode>
+         <ClosedNode>/SRR_test6 G:|GitRepositories|8th Semester|Architecture Lab 2020|HW 1|code|SRR_test6.v/uut - SRR_8_bit</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>SRR_test6 (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/SRR_test6.v)</SelectedItem>
+         <SelectedItem>SRR_test6 (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code/SRR_test6.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000bc000000020000000000000000000000000200000064ffffffff000000810000000300000002000000bc0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000bd000000020000000000000000000000000200000064ffffffff000000810000000300000002000000bd0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>SRR_test6 (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/SRR_test6.v)</CurrentItem>
+      <CurrentItem>SRR_test6 (G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code/SRR_test6.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -115,12 +118,23 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

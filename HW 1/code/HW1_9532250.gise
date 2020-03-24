@@ -30,6 +30,9 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DFF_test2_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="D_FF_Test1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_FF_Test1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LeftOrRightShiftRegister.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="LeftOrRightShiftRegister.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="LeftOrRightShiftRegister.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRR_8_bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SRR_8_bit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="SRR_8_bit.xst"/>
@@ -37,9 +40,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SRR_test4_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SRR_test5_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRR_test5_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRR_test6_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SRR_test6_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SRR_test6_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
@@ -58,18 +59,22 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585070970" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585070970">
+    <transform xil_pn:end_ts="1585076076" xil_pn:in_ck="-5938833797850293512" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585076076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="DFF.v"/>
-      <outfile xil_pn:name="SRR_8_bit.v"/>
-      <outfile xil_pn:name="SRR_test6.v"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1585069031" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3613939695597497763" xil_pn:start_ts="1585069031">
+    <transform xil_pn:end_ts="1585075993" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4843677301048929400" xil_pn:start_ts="1585075993">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585069031" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1584561042167678017" xil_pn:start_ts="1585069031">
+    <transform xil_pn:end_ts="1585075993" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5273603904202009238" xil_pn:start_ts="1585075993">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -77,33 +82,39 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585070970" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1585070970">
+    <transform xil_pn:end_ts="1585076076" xil_pn:in_ck="-5938833797850293512" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1585076076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="DFF.v"/>
-      <outfile xil_pn:name="SRR_8_bit.v"/>
-      <outfile xil_pn:name="SRR_test6.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1585070973" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6856617221352300011" xil_pn:start_ts="1585070970">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SRR_test6_beh.prj"/>
-      <outfile xil_pn:name="SRR_test6_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1585070973" xil_pn:in_ck="3152262086109712087" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1795838500316591752" xil_pn:start_ts="1585070973">
+    <transform xil_pn:end_ts="1585076078" xil_pn:in_ck="-5938833797850293512" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-577511165545556033" xil_pn:start_ts="1585076076">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1585076078" xil_pn:in_ck="5820440710124501479" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3916757924281279554" xil_pn:start_ts="1585076078">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SRR_test6_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

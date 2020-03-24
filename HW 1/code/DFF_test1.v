@@ -1,12 +1,13 @@
+  
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer:
 //
-// Create Date:   23:58:15 03/23/2020
+// Create Date:   23:59:12 03/23/2020
 // Design Name:   DFF
-// Module Name:   G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/DFF_test1.v
+// Module Name:   G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/HW1_9532250/DFF_test2.v
 // Project Name:  HW1_9532250
 // Target Device:  
 // Tool versions:  
@@ -22,7 +23,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module DFF_test1;
+module DFF_test2;
 
 	// Inputs
 	reg d_in;
@@ -42,13 +43,25 @@ module DFF_test1;
 		// Initialize Inputs
 		d_in = 0;
 		clk = 0;
-
+		
+		//==================================================
+		//Test Case 1
+		
+		/*
+		#20 d_in = 0 ;
+		#20 d_in = 1 ;
+		#20 d_in = 1 ;
+		#20 d_in = 0 ;\
+		*/
+		// =================================================
+		//Test Case 2
 		// Wait 100 ns for global reset to finish
-		#100;
-        
+		forever #40 d_in = ~ d_in;
 		// Add stimulus here
-
+		// =================================================
+ 
 	end
+	
+always #10 clk = ~clk ;
       
 endmodule
-

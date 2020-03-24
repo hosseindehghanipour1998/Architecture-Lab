@@ -5,5 +5,17 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="806" delta="old" >"G:\GitRepositories\8th Semester\Architecture Lab 2020\HW 1\code\LeftOrRightShiftRegister.v" Line 55: Syntax error near &quot;<arg fmt="%s" index="1">$display</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="44" delta="old" >"G:\GitRepositories\8th Semester\Architecture Lab 2020\HW 1\code\LeftOrRightShiftRegister.v" Line 29: <arg fmt="%s" index="1">leftOrRight</arg> is not a constant
+</msg>
+
+<msg type="error" file="HDLCompiler" num="44" delta="old" >"G:\GitRepositories\8th Semester\Architecture Lab 2020\HW 1\code\LeftOrRightShiftRegister.v" Line 42: <arg fmt="%s" index="1">leftOrRight</arg> is not a constant
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="old" >"G:\GitRepositories\8th Semester\Architecture Lab 2020\HW 1\code\LeftOrRightShiftRegister.v" Line 21: Module &lt;<arg fmt="%s" index="1">LeftOrRightShiftRegister</arg>&gt; ignored due to previous errors.
+</msg>
+
 </messages>
 
