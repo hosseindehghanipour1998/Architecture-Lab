@@ -30,6 +30,9 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DFF_test2_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="D_FF_Test1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_FF_Test1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRR_8_bit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SRR_8_bit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SRR_8_bit.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
@@ -68,11 +71,14 @@
     <transform xil_pn:end_ts="1584990538" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1736363502528919213" xil_pn:start_ts="1584990538">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1584992446" xil_pn:in_ck="-429149714264533383" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1584992446">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="DFF.v"/>
       <outfile xil_pn:name="DFF_test2.v"/>
     </transform>
@@ -82,6 +88,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="DFF_test2_beh.prj"/>
       <outfile xil_pn:name="DFF_test2_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
