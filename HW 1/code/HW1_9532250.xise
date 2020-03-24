@@ -26,12 +26,6 @@
     <file xil_pn:name="SRR_test2.bmm" xil_pn:type="FILE_BMM">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="SRR_test5.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="32"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="32"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="32"/>
-    </file>
     <file xil_pn:name="SRR_test6.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="40"/>

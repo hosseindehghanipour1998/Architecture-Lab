@@ -58,12 +58,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585069031" xil_pn:in_ck="-5215387281330649053" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585069031">
+    <transform xil_pn:end_ts="1585070970" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585070970">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DFF.v"/>
       <outfile xil_pn:name="SRR_8_bit.v"/>
-      <outfile xil_pn:name="SRR_test5.v"/>
       <outfile xil_pn:name="SRR_test6.v"/>
     </transform>
     <transform xil_pn:end_ts="1585069031" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3613939695597497763" xil_pn:start_ts="1585069031">
@@ -78,17 +77,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585069031" xil_pn:in_ck="-5215387281330649053" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1585069031">
+    <transform xil_pn:end_ts="1585070970" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1585070970">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DFF.v"/>
       <outfile xil_pn:name="SRR_8_bit.v"/>
-      <outfile xil_pn:name="SRR_test5.v"/>
       <outfile xil_pn:name="SRR_test6.v"/>
     </transform>
-    <transform xil_pn:end_ts="1585069033" xil_pn:in_ck="-5215387281330649053" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6856617221352300011" xil_pn:start_ts="1585069031">
+    <transform xil_pn:end_ts="1585070973" xil_pn:in_ck="-3146364299448884524" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6856617221352300011" xil_pn:start_ts="1585070970">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SRR_test6_beh.prj"/>
       <outfile xil_pn:name="SRR_test6_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -96,9 +96,11 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1585069033" xil_pn:in_ck="3152262086109712087" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1795838500316591752" xil_pn:start_ts="1585069033">
+    <transform xil_pn:end_ts="1585070973" xil_pn:in_ck="3152262086109712087" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1795838500316591752" xil_pn:start_ts="1585070973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SRR_test6_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

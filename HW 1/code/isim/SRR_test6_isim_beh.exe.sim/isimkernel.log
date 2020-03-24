@@ -1,0 +1,29 @@
+Command line:
+   SRR_test6_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9634
+
+Tue Mar 24 21:59:34 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5159.87 Meg
+
+ Total Signals          : 33
+ Total Nets             : 23
+ Total Signal Drivers   : 15
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 26
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 113
+Total Line Count : 46
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5159.87 Meg
+
+Tue Mar 24 21:59:55 2020
+
