@@ -30,13 +30,15 @@ assign output_O = control_bits[0] ?
 										(input_A | input_B) : 
 										(input_A - input_B)  )
 						 : (control_bits[1] ? // control_bits[0] == 0 
-									(input_A ^ input_B): // control_bits[1] == 1 
+									(input_A & input_B): // control_bits[1] == 1 
 									(control_bits[2] ? // control_bits[1] == 0
 												((input_A > input_B) ? 16'b0000000000000001 : 16'b0000000000000000) : (input_A + input_B)
 									
 									 ) 
 							
 							) ; 
+							
+assign zero = output_O ? 0 : 1 ; 
 
 
 

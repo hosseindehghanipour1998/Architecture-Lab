@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/test4_isim_beh.exe" -prj "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/test4_beh.prj" "work.test4" "work.glbl" 

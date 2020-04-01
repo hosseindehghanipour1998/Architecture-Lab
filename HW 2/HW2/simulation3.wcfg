@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/test4_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test4" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test4/output_O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_O[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_O[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test4/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test4/input_A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_A[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test4/input_B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_B[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test4/control_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control_bits[2:0]</obj_property>
+      <obj_property name="ObjectShortName">control_bits[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
