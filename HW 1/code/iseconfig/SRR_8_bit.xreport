@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-03-24T23:20:22</DateModified>
+  <DateModified>2020-04-02T03:01:37</DateModified>
   <ModuleName>SRR_8_bit</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code/iseconfig/SRR_8_bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 1/code\</ImplementationReportsDirectory>
   <DateInitialized>2020-03-24T23:20:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
