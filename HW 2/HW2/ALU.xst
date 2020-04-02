@@ -1,6 +1,9 @@
-set -tmpdir "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/xst/projnav.tmp"
-set -xsthdpdir "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn ALU.prj
+-ofn ALU
+-ofmt NGC
 -p xc7a100t-3-csg324
 -top ALU
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn ALU.prj

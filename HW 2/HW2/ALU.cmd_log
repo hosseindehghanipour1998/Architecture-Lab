@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/ALU.xst" -ofn "G:/GitRepositories/8th Semester/Architecture Lab 2020/HW 2/HW2/ALU.syr" 
