@@ -8,7 +8,7 @@ In this home work you are asked to implement the following terms in _Verilog_ :
 
 
 
-  <img src="https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg" height="100">
+  <img src="https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg" height="600" width="600">
 
 
 # Input bits
