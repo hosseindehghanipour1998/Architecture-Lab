@@ -19,7 +19,7 @@ The ALU gets two 16-bit inputs - *Input_A* and *Input_B*. It's able to do the fo
     - __Attention__ : If the result equals to zero ( *output_O = 0* ) then you must set  *zeroFlag = 1* otherwise *zeroFlag* will remain _zero_.
   - AND : [_bitwise AND_](https://en.wikipedia.org/wiki/Bitwise_operation#AND)
   - OR : [_bitwise OR_](https://en.wikipedia.org/wiki/Bitwise_operation#OR)
-  - SLT : _Set Less Than_ which return _1_ if *Input_A < Input_B* and _0_ otherwise.
+  - SLT : _Set Less Than_ which return _1_ if "*Input_A < Input_B*" and _0_ otherwise.
 
 # How set control bits ?
 ![picture](https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Operation%20Table.jpg)
