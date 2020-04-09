@@ -6,9 +6,9 @@ In this home work you are asked to implement the following terms in _Verilog_ :
     - a 1-bit *zeroFlag* output.
     - a 3-bit input as *control_bits* .
 
-  ![picture](https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg){:height="24px" width="48px"}
 
-  <img src="https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg" height="24" width="48">
+
+  <img src="https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg" height="100">
 
 
 # Input bits
