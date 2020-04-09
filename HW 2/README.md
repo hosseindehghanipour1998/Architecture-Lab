@@ -8,6 +8,8 @@ In this home work you are asked to implement the following terms in _Verilog_ :
 
   ![picture](https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg){:height="24px" width="48px"}
 
+  <img src="https://github.com/hosseindehghanipour1998/Architecture-Lab/blob/master/HW%202/ALU%20Schematic.jpg" height="24" width="48">
+
 
 # Input bits
 The ALU gets two 16-bit inputs - *Input_A* and *Input_B*. It's able to do the following operations based on the _control signals_:
