@@ -1,3 +1,2 @@
-verilog work "Data_Mem.v"
-verilog work "Data_Mem_Test_1.v"
+verilog work "Instruction_Mem.v"
 verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

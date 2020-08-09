@@ -35,6 +35,7 @@ module Instruction_Mem(
 			memory[i]=i>>1;
 	end
 	
-	assign instruction = { memory[address] , memory[address+1] };
+	assign instruction[15:8]= memory[address];
+	assign instruction[7:0]= memory[address+1];
 
 endmodule

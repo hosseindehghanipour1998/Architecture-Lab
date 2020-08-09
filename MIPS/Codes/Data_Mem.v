@@ -39,11 +39,11 @@ module Data_Mem(
 	end
 	
 	always @(posedge clk) begin
-		if( memRead == 1 ) begin
-			
-			read_data= {memory[address] , memory[address+1]};
-			
+		if( memRead == 1 ) begin	
+			read_data[15:8]=memory[address];
+			read_data[7:0]=memory[address+1];		
 		end
+		
 		if(memWrite==1) begin
 			memory[ address ] = write_data[15:8];
 			memory[ address + 1 ] = write_data[7:0];
