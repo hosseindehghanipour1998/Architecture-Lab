@@ -18,13 +18,13 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module ALU(input_A, input_B, control_bits, output_O , zero);
-input [15:0] input_A ;
-input [15:0] input_B ;
-input [2:0] ALU_Control ;
-output [15:0]  Result ;
-output Zero ;
-
+module ALU(
+	input [15:0] input_A ,
+	input [15:0] input_B ,
+	input [2:0] ALU_Control ,
+	output [15:0]  Result ,
+	output Zero 
+);
 assign Zero = (Result == 0) ? 1'b1 : 1'b0 ;
 
 assign Result = ( ALU_Control == 3'b000 ) ? (input_A + input_B ) : 
@@ -36,6 +36,5 @@ assign Result = ( ALU_Control == 3'b000 ) ? (input_A + input_B ) :
 					 ( ALU_Control == 3'b110 ) ? (input_A | input_B) :
 					 ((input_A < input_B) ? 1 : 0) ;
 					 
-
 
 endmodule
