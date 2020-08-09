@@ -22,12 +22,12 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem_Test_2.v";
-static unsigned int ng1[] = {4U, 0U};
-static int ng2[] = {2, 0};
+static unsigned int ng1[] = {96U, 0U};
+static int ng2[] = {48, 0};
 static const char *ng3 = "Fetched Successfully";
 static const char *ng4 = "Fetch not Successfull ";
-static unsigned int ng5[] = {48U, 0U};
-static int ng6[] = {24, 0};
+static unsigned int ng5[] = {80U, 0U};
+static int ng6[] = {40, 0};
 static const char *ng7 = "Fetch not Successful";
 
 

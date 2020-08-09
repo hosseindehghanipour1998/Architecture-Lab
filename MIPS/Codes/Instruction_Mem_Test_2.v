@@ -38,17 +38,17 @@ module Instruction_Mem_Test_2;
 
 	initial begin
 		// Initialize Inputs
-		address = 16'h0004;
+		address = 16'h0060;
 
 		// Wait 100 ns for global reset to finish
 		#500;
-		if( instruction == 2 ) $display("Fetched Successfully");
+		if( instruction == 48 ) $display("Fetched Successfully");
 		else $display("Fetch not Successfull ");
 		
 		
-		address = 16'h0030;
+		address = 16'h0050;
 		#500
-		if( instruction == 24 ) $display("Fetched Successfully");
+		if( instruction == 40 ) $display("Fetched Successfully");
 		else $display("Fetch not Successful");
         
 		// Add stimulus here

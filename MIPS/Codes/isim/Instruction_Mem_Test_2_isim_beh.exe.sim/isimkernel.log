@@ -2,14 +2,14 @@ Command line:
    Instruction_Mem_Test_2_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1646
+     -socket  1652
 
-Sun Aug 09 19:16:35 2020
+Sun Aug 09 19:19:36 2020
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5160.49 Meg
+ Current Memory Usage: 5159.9 Meg
 
  Total Signals          : 16
  Total Nets             : 45
@@ -23,7 +23,7 @@ Total Line Count : 30
 
  Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 5160.49 Meg
+ Current Memory Usage: 5159.9 Meg
 
-Sun Aug 09 19:16:45 2020
+Sun Aug 09 19:19:56 2020
 
