@@ -1,19 +1,18 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem_Test_2_isim_beh.exe -prj G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem_Test_2_beh.prj work.Instruction_Mem_Test_2 work.glbl 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Data_Mem_Test_2_isim_beh.exe" -prj "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Data_Mem_Test_2_beh.prj" "work.Data_Mem_Test_2" "work.glbl" 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem.v" into library work
-Analyzing Verilog file "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem_Test_2.v" into library work
+Analyzing Verilog file "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Data_Mem.v" into library work
+Analyzing Verilog file "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Data_Mem_Test_2.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module Instruction_Mem
-Compiling module Instruction_Mem_Test_2
+Compiling module Data_Mem
+Compiling module Data_Mem_Test_2
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem_Test_2_isim_beh.exe
-Fuse Memory Usage: 26924 KB
-Fuse CPU Usage: 296 ms
+Built simulation executable G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Data_Mem_Test_2_isim_beh.exe
+Fuse Memory Usage: 27664 KB
+Fuse CPU Usage: 312 ms

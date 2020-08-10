@@ -45,26 +45,27 @@ module Data_Mem_Test_2;
 	);
 
 	initial begin
-		// Initialize Inputs
 		clk = 0;
-		memRead = 0;
+		memRead = 1;
 		memWrite = 0;
-		address = 0;
+		address = 20;
 		write_data = 0;
 
-		// Wait 100 ns for global reset to finish
+		
 		#100;
-	   if( read_data == 5) $display("Reading Done Succeessfully");
+	   if( read_data == 10) $display("Reading -> Successful");
+		else $display("Reading -> Unsuccessful");
 		  memRead = 0;
 		  address = 20;
 		  memWrite = 1;
-		  write_data = 15;
+		  write_data = 12;
         
 		  #100
 		  memRead = 1;
 		  memWrite = 0;
 		  #100
-		  if( read_data == 15 ) $display("Writing Done Successfully");
+		  if( read_data == 12 ) $display("Writing -> Successful");
+		  else $display("Writing -> Unsuccessful");
 
 	end
 	always #2 clk=~clk;
