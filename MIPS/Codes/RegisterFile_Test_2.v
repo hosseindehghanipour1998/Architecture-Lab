@@ -79,7 +79,8 @@ module RegisterFile_Test_2;
 	when we are assigning a block cell of the resgister, we are
 	able to read the valid amount of the block cell in the next
 	clock cycle. ( Age hamoon moghe bekhaym bekhoonim, data e 
-	ghabli ro behemoon neshoon mide )
+	ghabli ro behemoon neshoon mide ... vasate clock e baadi 
+	behemoon result e dorost ro mide.)
 	
 	*/
       
