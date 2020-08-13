@@ -65,10 +65,12 @@ module RegisterFile_Test_2;
 		#20;
 		clk = 0;
 		$display(read_data_1);
+		write_register = 0  ; 
 		
 		#20;
 		clk = 1;	
 		$display(read_data_1);
+		
 
 	end
 	
