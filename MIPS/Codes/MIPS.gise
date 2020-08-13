@@ -102,6 +102,8 @@
     <transform xil_pn:end_ts="1597294925" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1597294925">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_Test_3.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
@@ -129,6 +131,7 @@
     <transform xil_pn:end_ts="1597294932" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_Test_3.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
@@ -144,6 +147,9 @@
     <transform xil_pn:end_ts="1597294935" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8891638208085229055" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit_Test_2_beh.prj"/>
       <outfile xil_pn:name="ControlUnit_Test_2_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -154,6 +160,9 @@
     <transform xil_pn:end_ts="1597294935" xil_pn:in_ck="-2614089982875868959" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6513159689338229090" xil_pn:start_ts="1597294935">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit_Test_2_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
