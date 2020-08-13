@@ -20,7 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 module ControlUnit(
 	input [2:0] OpCode ,
-	output RegDst , ALUSrc , MemtoReg , RegWrite, MemRead, MemWrite, Branch, [1:0] ALUOp
+	output RegDst , ALUSrc , MemtoReg , RegWrite, MemRead, MemWrite, Branch, 
+	output [1:0] ALUOp
     );
 	
 	
@@ -34,7 +35,8 @@ module ControlUnit(
 	assign SLTI 	= (OpCode == 3'b001) ? 1 : 0 ; // slti
 	
 	// Assign Vlaues to outputs
-	assign RegDst 		= (R_TYPE) 								?  1: 0; 
+	assign RegDst 		= (R_TYPE) 								?  1: 0;
+	assign ALUSrc 		= (SW || LW || ADDI || SLTI) 		?  1: 0;	
 	assign MemtoReg 	= (LW) 									?  1: 0;
 	assign RegWrite 	= (R_TYPE || LW || ADDI || SLTI) ?  1: 0;
 	assign MemRead 	= (LW) 									?  1: 0;
