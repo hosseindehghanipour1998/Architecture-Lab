@@ -26,11 +26,12 @@ module ALU_Control(
 	 
 	 // Types of R_Type Operations
 	 wire R_TYPE_ADD , R_TYPE_SUB, R_TYPE_AND, R_TYPE_OR, R_TYPE_SLT ;
-	 assign  R_TYPE_ADD = (Function = 4'b0000) ? 1: 0;
-	 assign  R_TYPE_SUB = (Function = 4'b0001) ? 1: 0;
-	 assign  R_TYPE_AND = (Function = 4'b0010) ? 1: 0;
-	 assign  R_TYPE_OR  = (Function = 4'b0011) ? 1: 0;
-	 assign  R_TYPE_SLT = (Function = 4'b0100) ? 1: 0;
+	 assign  R_TYPE_ADD = (Function == 4'b0000) ? 1: 0;
+	 assign  R_TYPE_SUB = (Function == 4'b0001) ? 1: 0;
+	 assign  R_TYPE_AND = (Function == 4'b0010) ? 1: 0;
+	 assign  R_TYPE_OR  = (Function == 4'b0011) ? 1: 0;
+	 assign  R_TYPE_SLT = (Function == 4'b0100) ? 1: 0;
+	 
 	 
 	 // Set ALUcnt Value
 	 assign ALUcnt =  (ALUOp == 2'b11) ? 3'b000 : //Addi,LW,SW

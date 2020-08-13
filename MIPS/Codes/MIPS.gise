@@ -32,6 +32,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ALU.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Control.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU_Control.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU_Control.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Control_Test_1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_Test_1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Test_1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_Test_2_isim_beh.exe"/>
@@ -99,12 +103,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1597294925" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1597294925">
+    <transform xil_pn:end_ts="1597296593" xil_pn:in_ck="2313194832070478987" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1597296593">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALU_Control.v"/>
+      <outfile xil_pn:name="ALU_Control_Test_1.v"/>
       <outfile xil_pn:name="ALU_Test_3.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="ControlUnit_Test_2.v"/>
@@ -119,10 +123,12 @@
     <transform xil_pn:end_ts="1597294932" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4615384609053420296" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1597294932" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1310409512009564454" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1596938118" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1736233345804067455" xil_pn:start_ts="1596938118">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -131,7 +137,10 @@
     <transform xil_pn:end_ts="1597294932" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_Test_3.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
@@ -147,6 +156,7 @@
     <transform xil_pn:end_ts="1597294935" xil_pn:in_ck="-5375609421125173072" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8891638208085229055" xil_pn:start_ts="1597294932">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
@@ -160,6 +170,7 @@
     <transform xil_pn:end_ts="1597294935" xil_pn:in_ck="-2614089982875868959" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6513159689338229090" xil_pn:start_ts="1597294935">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
