@@ -64,8 +64,8 @@ module RegisterFile(
 	end
 	
 	// Reading Data From Registers
-	assign read_register_1 = registers[read_data_1];
-	assign read_register_2 = registers[read_data_2];
+	assign  read_data_1 = registers[read_register_1];
+	assign  read_data_2 = registers[read_register_2];
 
 
 
