@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+IF_ID instance_name (
+    .clk(clk), 
+    .PC_plus_two(PC_plus_two), 
+    .instruction(instruction), 
+    .O_PC_plus_two(O_PC_plus_two), 
+    .O_instruction(O_instruction)
+    );
+
+

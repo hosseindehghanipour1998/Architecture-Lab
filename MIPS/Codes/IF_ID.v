@@ -23,7 +23,7 @@ module IF_ID(
 	input  		[15:0]  PC_plus_two,
 	input  		[15:0]  instruction,
 	output reg	[15:0]  O_PC_plus_two,
-	output reg	[15:0]  O_instruction,
+	output reg	[15:0]  O_instruction
     );
 	 
 	 always@(negedge clk ) begin
