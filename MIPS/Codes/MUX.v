@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    12:51:03 08/15/2020 
+// Create Date:    12:59:01 08/15/2020 
 // Design Name: 
-// Module Name:    MUX 
+// Module Name:    Mux 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module MUX(
+module Mux(
 	input [15:0] input0 ,
 	input [15:0] input1 ,
 	output [15:0] out ,
