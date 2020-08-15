@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+Instruction_Mem instance_name (
+    .address(address), 
+    .instruction(instruction)
+    );
+
+
