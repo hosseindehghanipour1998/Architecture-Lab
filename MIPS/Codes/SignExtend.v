@@ -19,14 +19,14 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module SignExtend(
-	input [7:0] in,
+	input [6:0] in,
 	output [15:0] out
     );
 	 
 
 	
-	assign out[7:0] = in;
-	assign out[15:8] = {8{in[7]}};
+	assign out[6:0] = in;
+	assign out[15:7] = {8{in[6]}};
 
 
 endmodule
