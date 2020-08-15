@@ -23,7 +23,7 @@ module MIPS(
     );
 
 
-	Fetch_Stage instance_name (
+	Fetch_Stage Fetch (
 		 .clk(), 
 		 .PC_Src(), 
 		 .branch_target(), 
@@ -32,7 +32,7 @@ module MIPS(
     );
 	 
 	 
-	 Decode_Stage instance_name (
+	 Decode_Stage Decode (
 		 .clk(), 
 		 .RegWrite(), 
 		 .instruction(), 
