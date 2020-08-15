@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Fetch_Stage instance_name (
+    .clk(clk), 
+    .PC_Src(PC_Src), 
+    .branch_target(branch_target), 
+    .PC_plus_two(PC_plus_two), 
+    .instruction(instruction)
+    );
+
+

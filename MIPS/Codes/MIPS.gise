@@ -67,6 +67,8 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Data_Mem_Test_2_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Data_Mem_Test_2_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Data_Mem_Test_2_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Decode_Stage.tfi"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Fetch_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Mem.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Mem.stx"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Instruction_Mem.tfi"/>
