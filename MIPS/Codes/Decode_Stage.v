@@ -27,9 +27,11 @@ module Decode_Stage(
 	output 	[15:0] 	read_data_1,
 	output 	[15:0] 	read_data_2,
 	output 	[15:0] 	immediate,
-	output   RegDst , ALUSrc , MemtoReg , RegWrite , MemRead , MemWrite , Branch ,
+	output   RegDst , ALUSrc , MemtoReg ,  MemRead , MemWrite , Branch ,
 	output 	[1:0] 	ALUOp
     );
+	 
+	 
 	 
 	 
 	 RegisterFile RegisterFile (

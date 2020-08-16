@@ -55,7 +55,7 @@ module MIPS(
 	 
 	 Decode_Stage Decode (
 		 .clk(clk), 
-		 .RegWrite(), // From Next Stages
+		 .RegWrite(cnt_RegWrite), // From Next Stages
 		 .instruction(O_instruction), 
 		 .write_register(), // From Next Stages
 		 .write_Data(), // From Next Stages
@@ -64,8 +64,7 @@ module MIPS(
 		 .immediate(decode_immediate), 
 		 .RegDst(cnt_RegDst), 
 		 .ALUSrc(cnt_ALUSrc), 
-		 .MemtoReg(cnt_MemtoReg), 
-		 .RegWrite(cnt_RegWrite), 
+		 .MemtoReg(cnt_MemtoReg),  
 		 .MemRead(cnt_MemRead), 
 		 .MemWrite(cnt_MemWrite), 
 		 .Branch(cnt_Branch), 

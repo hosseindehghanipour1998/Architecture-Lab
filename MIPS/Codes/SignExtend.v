@@ -26,7 +26,7 @@ module SignExtend(
 
 	
 	assign out[6:0] = in;
-	assign out[15:7] = {8{in[6]}};
+	assign out[15:7] = {9{in[6]}};
 
 
 endmodule
