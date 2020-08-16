@@ -20,14 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Decode_Stage(
 	input 				clk,
-	input 				RegWrite,
+	input 				In_RegWrite,
 	input		[15:0]	instruction,
 	input 	[2:0]		write_register,
 	input 	[15:0] 	write_Data,
 	output 	[15:0] 	read_data_1,
 	output 	[15:0] 	read_data_2,
 	output 	[15:0] 	immediate,
-	output   RegDst , ALUSrc , MemtoReg ,  MemRead , MemWrite , Branch ,
+	output   RegDst , ALUSrc , MemtoReg ,  MemRead , MemWrite , Branch ,Out_RegWrite,
 	output 	[1:0] 	ALUOp
     );
 	 
