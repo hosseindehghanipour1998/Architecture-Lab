@@ -61,7 +61,7 @@ module ID_EX(
 	output reg 			O_RegWrite
     );
 	 
-	 always@(negedge clk ) begin
+	always@(negedge clk ) begin
 			O_PC_plus_two  <= in_PC_plus_two ;
 			O_Read_data_1  <= in_Read_data_1 ;
 			O_Read_data_2  <= in_Read_data_2;
@@ -76,7 +76,7 @@ module ID_EX(
 			O_Branch			<= in_Branch;
 			O_MemtoReg		<= in_MemtoReg;
 			O_RegWrite		<= in_RegWrite;
-	 end 
+	end 
 
 
 endmodule
