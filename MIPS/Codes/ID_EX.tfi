@@ -1,0 +1,36 @@
+
+
+
+// Instantiate the module
+ID_EX instance_name (
+    .in_PC_plus_two(in_PC_plus_two), 
+    .in_Read_data_1(in_Read_data_1), 
+    .in_Read_data_2(in_Read_data_2), 
+    .in_immediate(in_immediate), 
+    .in_ALU_Src(in_ALU_Src), 
+    .in_ALUOp(in_ALUOp), 
+    .in_RegDest(in_RegDest), 
+    .in_rt(in_rt), 
+    .in_rd(in_rd), 
+    .in_MemRead(in_MemRead), 
+    .in_MemWrite(in_MemWrite), 
+    .in_Branch(in_Branch), 
+    .in_MemtoReg(in_MemtoReg), 
+    .in_RegWrite(in_RegWrite), 
+    .O_PC_plus_two(O_PC_plus_two), 
+    .O_Read_data_1(O_Read_data_1), 
+    .O_Read_data_2(O_Read_data_2), 
+    .O_immediate(O_immediate), 
+    .O_ALU_Src(O_ALU_Src), 
+    .O_ALUOp(O_ALUOp), 
+    .O_RegDest(O_RegDest), 
+    .O_rt(O_rt), 
+    .O_rd(O_rd), 
+    .O_MemRead(O_MemRead), 
+    .O_MemWrite(O_MemWrite), 
+    .O_Branch(O_Branch), 
+    .O_MemtoReg(O_MemtoReg), 
+    .O_RegWrite(O_RegWrite)
+    );
+
+

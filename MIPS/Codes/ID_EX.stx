@@ -12,7 +12,7 @@ Total CPU time to Xst completion: 0.10 secs
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
---> Reading design: Decode_Stage.prj
+--> Reading design: ID_EX.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,18 +39,12 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\SignExtend.v" into library work
-Parsing module <SignExtend>.
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\RegisterFile.v" into library work
-Parsing module <RegisterFile>.
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\ControlUnit.v" into library work
-Parsing module <ControlUnit>.
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\Decode_Stage.v" into library work
-Parsing module <Decode_Stage>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\ID_EX.v" into library work
+Parsing module <ID_EX>.
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.70 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.65 secs
  
 --> 
 

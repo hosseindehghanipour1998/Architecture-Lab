@@ -72,6 +72,10 @@
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Decode_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Decode_Stage.xst"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Fetch_Stage.tfi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ID_EX.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ID_EX.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="ID_EX.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ID_EX.xst"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="IF_ID.tfi"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Mem.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Mem.stx"/>

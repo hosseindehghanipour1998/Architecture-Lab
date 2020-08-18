@@ -19,6 +19,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module ID_EX(
+
+	input clk ,
 	input [15:0] in_PC_plus_two,
 	input [15:0] in_Read_data_1,
 	input [15:0] in_Read_data_2,
@@ -31,7 +33,7 @@ module ID_EX(
 	// Destination Register Select
 	input 		 in_RegDest, // chooses between Rt & Rd
 	input	[2:0]	 in_rt,
-	input [2:0]	 in_rd
+	input [2:0]	 in_rd,
 	
 	// Memory Control Signals
 	input 		 in_MemRead, in_MemWrite,
@@ -56,9 +58,7 @@ module ID_EX(
 	output reg 			O_MemWrite,
 	output reg 			O_Branch,
 	output reg 			O_MemtoReg,
-	output reg 			O_RegWrite,
-	
-	
+	output reg 			O_RegWrite
     );
 
 

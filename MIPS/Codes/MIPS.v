@@ -54,11 +54,13 @@ module MIPS(
 	 wire [1:0] cnt_ALUOp ;
 	 
 	 Decode_Stage Decode (
+		 // Inputs 
 		 .clk(clk), 
 		 .In_RegWrite(), // From Next Stages
 		 .instruction(O_instruction), 
 		 .write_register(), // From Next Stages
-		 .write_Data(), // From Next Stages
+		 .write_Data(), // From Next Stages ( WB )
+		 // Outputs
 		 .read_data_1(decode_read_data_1), 
 		 .read_data_2(decode_read_data_2), 
 		 .immediate(decode_immediate), 
@@ -71,10 +73,46 @@ module MIPS(
 		 .Out_RegWrite(cnt_RegWrite),
 		 .ALUOp(cnt_ALUOp)
     );
+	
+	ID_EX ID_EX (
+		 
+		 // Inputs
+		 .clk(clk),
+		 .in_PC_plus_two(PC_plus_two), 
+		 .in_Read_data_1(decode_read_data_1), 
+		 .in_Read_data_2(decode_read_data_2), 
+		 .in_immediate(decode_immediate), 
+		 .in_ALU_Src(cnt_ALUSrc), 
+		 .in_ALUOp(cnt_ALUOp), 
+		 .in_RegDest(cnt_RegDst), 
+		 .in_rt(O_instruction[9:7]), 
+		 .in_rd(O_instruction[6:4]), 
+		 .in_MemRead(cnt_MemRead), 
+		 .in_MemWrite(cnt_MemWrite), 
+		 .in_Branch(cnt_Branch), 
+		 .in_MemtoReg(cnt_MemtoReg), 
+		 .in_RegWrite(cnt_RegWrite), 
+		 
+		 //Outputs
+		 .O_PC_plus_two(), 
+		 .O_Read_data_1(), 
+		 .O_Read_data_2(), 
+		 .O_immediate(), 
+		 .O_ALU_Src(), 
+		 .O_ALUOp(), 
+		 .O_RegDest(), 
+		 .O_rt(), 
+		 .O_rd(), 
+		 .O_MemRead(), 
+		 .O_MemWrite(), 
+		 .O_Branch(), 
+		 .O_MemtoReg(), 
+		 .O_RegWrite()
+    );
 
+wire IDEX_2_Execute ;
 
-
-
+// ============= Execute ===============
 
 
 endmodule

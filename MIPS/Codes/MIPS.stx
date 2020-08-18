@@ -53,6 +53,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MI
 Parsing module <ControlUnit>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\IF_ID.v" into library work
 Parsing module <IF_ID>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\ID_EX.v" into library work
+Parsing module <ID_EX>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\Fetch_Stage.v" into library work
 Parsing module <Fetch_Stage>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\Decode_Stage.v" into library work
@@ -61,8 +63,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MI
 Parsing module <MIPS>.
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.24 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.68 secs
  
 --> 
 
