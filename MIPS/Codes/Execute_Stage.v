@@ -25,14 +25,22 @@ module Execute_Stage(
 	input 		 	in_ALUSrc,
 	input	[1:0]  	in_ALUOp,
 	input [15:0]	in_PC_plus_two,
+	
+	// Mux Data ( Rt and Rd )
+	input  			in_RegDest,
+	input  [2:0] 	in_rt,
+	input  [2:0] 	in_rd,
+	
 	//outputs
 	output [15:0]	O_ALUResult,
 	output 			O_Zero,
-	output [15:0]	O_addResult 
+	output [15:0]	O_addResult ,
+	output [2:0]	O_WriteRegister
     );
 	 
 	 wire [15:0] outMux_inALU ;
 	 wire [2:0] outALUControl_inALU ;
+	 
 	 
 	 ALU ALU (
 		 .input_A(in_Read_Data_1), 
@@ -48,13 +56,20 @@ module Execute_Stage(
 		 .ALUcnt(outALUControl_inALU)
 	 );
 	 
-	 Mux Execute_Mux (
+	 Mux Execute_Mux_1 (
     .input0(in_Read_Data_2), 
     .input1(in_Immediate), 
     .out(outMux_inALU), 
     .select(in_ALUSrc)
     );
 
+	
+	 Mux Execute_Mux_2 (
+    .input0(in_rt), 
+    .input1(in_rd), 
+    .out(O_WriteRegister), 
+    .select(in_RegDest)
+    );
 	
 	assign O_addResult = ( in_Immediate << 1 ) + (in_PC_plus_two) ;
 
