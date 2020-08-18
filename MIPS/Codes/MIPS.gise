@@ -75,11 +75,13 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Decode_Stage.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EX_MEM.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="EX_MEM.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="EX_MEM.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="EX_MEM.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Execute_Stage.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="Execute_Stage.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Execute_Stage.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Execute_Stage.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Execute_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Execute_Stage.xst"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Fetch_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ID_EX.prj"/>

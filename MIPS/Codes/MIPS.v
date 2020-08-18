@@ -21,7 +21,8 @@
 module MIPS(
 	input clk 
     );
-	 
+// =========== Next Stage Wires
+	 wire EXMEM_out_BranchTarget         ;	 
 	 
 // =========== FETCH ==========================	 
 	wire [15:0] instruction ;
@@ -29,11 +30,12 @@ module MIPS(
 	wire [15:0] PC_plus_two;
 	wire [15:0] O_PC_plus_two;
 	
+	
 
 	Fetch_Stage Fetch (
 		 .clk(clk), 
 		 .PC_Src(), // From Next Stages
-		 .branch_target(), // From Next Stages
+		 .branch_target(EXMEM_out_BranchTarget), // From Next Stages
 		 .PC_plus_two(PC_plus_two), 
 		 .instruction(instruction)
     );
@@ -45,7 +47,7 @@ module MIPS(
 		 .instruction(instruction), 
 		 .O_PC_plus_two(O_PC_plus_two), 
 		 .O_instruction(O_instruction)
-		 );	
+	 );	
 // ============== DECODE =======================	  
 	 wire [15:0] decode_read_data_1 ; 
 	 wire [15:0] decode_read_data_2 ; 
@@ -73,6 +75,22 @@ module MIPS(
 		 .Out_RegWrite(cnt_RegWrite),
 		 .ALUOp(cnt_ALUOp)
     );
+
+	// Smaple : wire IDEX_out_ ;
+	wire [15:0] IDEX_out_PC_plus_two;
+	wire [15:0] IDEX_out_Read_data_1;
+	wire [15:0] IDEX_out_Read_data_2;
+	wire [15:0] IDEX_out_immediate;
+	wire 			IDEX_out_ALU_Src;
+	wire [1:0]	IDEX_out_ALUOp;
+	wire 			IDEX_out_RegDest;
+	wire [2:0]	IDEX_out_rt;
+	wire [2:0]	IDEX_out_rd;
+	wire 			IDEX_out_MemRead;
+	wire 			IDEX_out_MemWrite;
+	wire 			IDEX_out_Branch;
+	wire 			IDEX_out_MemtoReg;
+	wire 			IDEX_out_RegWrite;
 	
 	ID_EX ID_EX (	 
 		 // Inputs
@@ -109,23 +127,68 @@ module MIPS(
 		 .O_RegWrite(IDEX_out_RegWrite)
     );
 
-	// Smaple : wire IDEX_out_ ;
-	wire [15:0] IDEX_out_PC_plus_two;
-	wire [15:0] IDEX_out_Read_data_1;
-	wire [15:0] IDEX_out_Read_data_2;
-	wire [15:0] IDEX_out_immediate;
-	wire 			IDEX_out_ALU_Src;
-	wire [1:0]	IDEX_out_ALUOp;
-	wire 			IDEX_out_RegDest;
-	wire [2:0]	IDEX_out_rt;
-	wire [2:0]	IDEX_out_rd;
-	wire 			IDEX_out_MemRead;
-	wire 			IDEX_out_MemWrite;
-	wire 			IDEX_out_Branch;
-	wire 			IDEX_out_MemtoReg;
-	wire 			IDEX_out_RegWrite;       
+       
 
 // ============= Execute ===============
+	wire [15:0] EX_out_ALUResult;
+	wire 			EX_out_Zero;
+	wire [15:0] EX_out_BranchTarget;
+	wire [2:0] 	EX_out_WriteRegister;
+
+	Execute_Stage Execute_Stage (
+		 .in_Read_Data_1(IDEX_out_Read_data_1), 
+		 .in_Read_Data_2(IDEX_out_Read_data_2), 
+		 .in_Immediate(IDEX_out_immediate), 
+		 .in_ALUSrc(IDEX_out_ALU_Src), 
+		 .in_ALUOp(IDEX_out_ALUOp), 
+		 .in_PC_plus_two(IDEX_out_PC_plus_two), 
+		 .in_RegDest(IDEX_out_RegDest), 
+		 .in_rt(IDEX_out_rt), 
+		 .in_rd(IDEX_out_rd), 
+		 .O_ALUResult(EX_out_ALUResult), 
+		 .O_Zero(EX_out_Zero), 
+		 .O_BranchTarget(EX_out_BranchTarget), 
+		 .O_WriteRegister(EX_out_WriteRegister)
+		 );
+		 
+	
+	 wire EXMEM_out_MemRead        ;
+	 wire EXMEM_out_MemWrite         ;
+	 wire EXMEM_out_Branch         ;
+
+	 wire EXMEM_out_MemtoReg         ;
+	 wire EXMEM_out_RegWrite         ;
+	 wire EXMEM_out_ALUResult         ;
+	 wire EXMEM_out_Zero         ;
+	 wire EXMEM_out_Write_Data         ;
+	 wire EXMEM_out_WriteRegister         ;
+
+	 
+	 EX_MEM EX_MEM (
+		 .clk(clk), 
+		 .in_MemRead(IDEX_out_MemRead), 
+		 .in_MemWrite(IDEX_out_MemWrite), 
+		 .in_Branch(IDEX_out_Branch), 
+		 .in_BranchTarget(EX_out_BranchTarget), 
+		 .in_MemtoReg(IDEX_out_MemtoReg), 
+		 .in_RegWrite(IDEX_out_RegWrite), 
+		 .in_ALUResult(EX_out_ALUResult), 
+		 .in_Zero(EX_out_Zero), 
+		 .in_ReadData_2(IDEX_out_Read_data_2), 
+		 .in_WriteRegister(EX_out_WriteRegister), 
+		 .O_MemRead(EXMEM_out_MemRead), 
+		 .O_MemWrite(EXMEM_out_MemWrite), 
+		 .O_Branch(EXMEM_out_Branch), 
+		 .O_BranchTarget(EXMEM_out_BranchTarget), 
+		 .O_MemtoReg(EXMEM_out_MemtoReg), 
+		 .O_RegWrite(EXMEM_out_RegWrite), 
+		 .O_ALUResult(EXMEM_out_ALUResult), 
+		 .O_Zero(EXMEM_out_Zero), 
+		 .O_Write_Data(EXMEM_out_Write_Data), 
+		 .O_WriteRegister(EXMEM_out_WriteRegister)
+    );
+
+
 
 
 endmodule

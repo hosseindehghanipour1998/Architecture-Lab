@@ -34,7 +34,7 @@ module Execute_Stage(
 	//outputs
 	output [15:0]	O_ALUResult,
 	output 			O_Zero,
-	output [15:0]	O_addResult ,
+	output [15:0]	O_BranchTarget ,
 	output [2:0]	O_WriteRegister
     );
 	 
@@ -71,7 +71,7 @@ module Execute_Stage(
     .select(in_RegDest)
     );
 	
-	assign O_addResult = ( in_Immediate << 1 ) + (in_PC_plus_two) ;
+	assign O_BranchTarget = ( in_Immediate << 1 ) + (in_PC_plus_two) ;
 
 
 
