@@ -1,0 +1,4 @@
+verilog work "Mux.v"
+verilog work "ALU_Control.v"
+verilog work "ALU.v"
+verilog work "Execute_Stage.v"

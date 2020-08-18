@@ -1,1 +1,2 @@
 vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Mux.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//Mux.v" -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Mux.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//Mux.v" -module Mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

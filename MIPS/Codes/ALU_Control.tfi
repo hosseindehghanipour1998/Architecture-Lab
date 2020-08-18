@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ALU_Control instance_name (
+    .ALUOp(ALUOp), 
+    .Function(Function), 
+    .ALUcnt(ALUcnt)
+    );
+
+

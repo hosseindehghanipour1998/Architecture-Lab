@@ -31,9 +31,11 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ALU.syr"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="ALU.tfi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Control.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU_Control.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="ALU_Control.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU_Control.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_Control_Test_1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_Control_Test_1_stx_beh.prj"/>
@@ -71,6 +73,11 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Decode_Stage.stx"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Decode_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Decode_Stage.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Execute_Stage.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Execute_Stage.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Execute_Stage.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Execute_Stage.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Execute_Stage.xst"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Fetch_Stage.tfi"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ID_EX.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ID_EX.stx"/>

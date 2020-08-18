@@ -1,0 +1,15 @@
+[Inputs]
+in_ALUSrc
+=in_Read_Data_1[15:0]=
+=in_Read_Data_2[15:0]=
+=in_Immediate[15:0]=
+=in_ALUOp[1:0]=
+=in_PC_plus_two[15:0]=
+[Outputs]
+O_Zero
+=O_ALUResult[15:0]=
+=O_addResult[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Execute_Stage
+
