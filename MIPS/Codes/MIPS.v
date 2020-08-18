@@ -74,8 +74,7 @@ module MIPS(
 		 .ALUOp(cnt_ALUOp)
     );
 	
-	ID_EX ID_EX (
-		 
+	ID_EX ID_EX (	 
 		 // Inputs
 		 .clk(clk),
 		 .in_PC_plus_two(PC_plus_two), 
@@ -94,23 +93,37 @@ module MIPS(
 		 .in_RegWrite(cnt_RegWrite), 
 		 
 		 //Outputs
-		 .O_PC_plus_two(), 
-		 .O_Read_data_1(), 
-		 .O_Read_data_2(), 
-		 .O_immediate(), 
-		 .O_ALU_Src(), 
-		 .O_ALUOp(), 
-		 .O_RegDest(), 
-		 .O_rt(), 
-		 .O_rd(), 
-		 .O_MemRead(), 
-		 .O_MemWrite(), 
-		 .O_Branch(), 
-		 .O_MemtoReg(), 
-		 .O_RegWrite()
+		 .O_PC_plus_two(IDEX_out_PC_plus_two), 
+		 .O_Read_data_1(IDEX_out_Read_data_1), 
+		 .O_Read_data_2(IDEX_out_Read_data_2), 
+		 .O_immediate(IDEX_out_immediate), 
+		 .O_ALU_Src(IDEX_out_ALU_Src), 
+		 .O_ALUOp(IDEX_out_ALUOp), 
+		 .O_RegDest(IDEX_out_RegDest), 
+		 .O_rt(IDEX_out_rt), 
+		 .O_rd(IDEX_out_rd), 
+		 .O_MemRead(IDEX_out_MemRead), 
+		 .O_MemWrite(IDEX_out_MemWrite), 
+		 .O_Branch(IDEX_out_Branch), 
+		 .O_MemtoReg(IDEX_out_MemtoReg), 
+		 .O_RegWrite(IDEX_out_RegWrite)
     );
 
-wire IDEX_out_ ;
+	// Smaple : wire IDEX_out_ ;
+	wire [15:0] IDEX_out_PC_plus_two;
+	wire [15:0] IDEX_out_Read_data_1;
+	wire [15:0] IDEX_out_Read_data_2;
+	wire [15:0] IDEX_out_immediate;
+	wire 			IDEX_out_ALU_Src;
+	wire [1:0]	IDEX_out_ALUOp;
+	wire 			IDEX_out_RegDest;
+	wire [2:0]	IDEX_out_rt;
+	wire [2:0]	IDEX_out_rd;
+	wire 			IDEX_out_MemRead;
+	wire 			IDEX_out_MemWrite;
+	wire 			IDEX_out_Branch;
+	wire 			IDEX_out_MemtoReg;
+	wire 			IDEX_out_RegWrite;       
 
 // ============= Execute ===============
 
