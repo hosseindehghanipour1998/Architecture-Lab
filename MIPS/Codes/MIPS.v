@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Hossein Dehghanipour
 // 
 // Create Date:    15:01:43 08/15/2020 
 // Design Name: 
@@ -110,7 +110,7 @@ module MIPS(
 		 .O_RegWrite()
     );
 
-wire IDEX_2_Execute ;
+wire IDEX_out_ ;
 
 // ============= Execute ===============
 
