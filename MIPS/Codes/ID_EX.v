@@ -60,6 +60,23 @@ module ID_EX(
 	output reg 			O_MemtoReg,
 	output reg 			O_RegWrite
     );
+	 
+	 always@(negedge clk ) begin
+			O_PC_plus_two  <= in_PC_plus_two ;
+			O_Read_data_1  <= in_Read_data_1 ;
+			O_Read_data_2  <= in_Read_data_2;
+			O_immediate		<= in_immediate ;
+			O_ALU_Src		<= in_ALU_Src;
+			O_ALUOp			<= in_ALUOp;
+			O_RegDest		<= in_RegDest;
+			O_rt				<= in_rt;
+			O_rd				<= in_rd;
+			O_MemRead		<= in_MemRead;
+			O_MemWrite		<= in_MemWrite;
+			O_Branch			<= in_Branch;
+			O_MemtoReg		<= in_MemtoReg;
+			O_RegWrite		<= in_RegWrite;
+	 end 
 
 
 endmodule

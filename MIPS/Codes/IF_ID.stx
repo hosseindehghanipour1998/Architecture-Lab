@@ -12,7 +12,7 @@ Total CPU time to Xst completion: 0.10 secs
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
---> Reading design: ID_EX.prj
+--> Reading design: IF_ID.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,12 +39,12 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\ID_EX.v" into library work
-Parsing module <ID_EX>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\IF_ID.v" into library work
+Parsing module <IF_ID>.
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.92 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.57 secs
  
 --> 
 
