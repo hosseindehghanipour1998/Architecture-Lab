@@ -39,7 +39,7 @@ module MIPS(
     );
 	
 
-	IF_ID instance_name (
+	IF_ID IF_ID (
 		 .clk(clk), 
 		 .PC_plus_two(PC_plus_two), 
 		 .instruction(instruction), 
