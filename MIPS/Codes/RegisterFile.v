@@ -51,11 +51,13 @@ module RegisterFile(
 	
 	// Writing Data on registers
 	always@(posedge clk ) begin
-		if ( write_register != 0 ) begin
+		if ( write_register != 0 && RegWrite == 1) begin
 		
 			registers[write_register] = write_data ;
 		
 		end
+		
+
 		
 		else begin
 			$display("You can not write on Register Zero");

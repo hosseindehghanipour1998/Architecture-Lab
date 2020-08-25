@@ -35,7 +35,7 @@ module MIPS(
 	Fetch_Stage Fetch (
 		 .clk(clk), 
 		 .PC_Src(), // From Next Stages
-		 .branch_target(EXMEM_out_BranchTarget), // From Next Stages
+		 .branch_target(EXMEM_out_BranchTarget), // From Next Stages (FILLED)
 		 .PC_plus_two(PC_plus_two), 
 		 .instruction(instruction)
     );
@@ -152,16 +152,16 @@ module MIPS(
 		 );
 		 
 	
-	 wire EXMEM_out_MemRead        ;
-	 wire EXMEM_out_MemWrite         ;
-	 wire EXMEM_out_Branch         ;
-
-	 wire EXMEM_out_MemtoReg         ;
-	 wire EXMEM_out_RegWrite         ;
-	 wire EXMEM_out_ALUResult         ;
-	 wire EXMEM_out_Zero         ;
-	 wire EXMEM_out_Write_Data         ;
-	 wire EXMEM_out_WriteRegister         ;
+	 wire EXMEM_out_MemRead      	;
+	 wire EXMEM_out_MemWrite     	;
+	 wire EXMEM_out_Branch       	;
+	
+	 wire EXMEM_out_MemtoReg     	;
+	 wire EXMEM_out_RegWrite     	;
+	 wire EXMEM_out_ALUResult    	;
+	 wire EXMEM_out_Zero         	;
+	 wire EXMEM_out_Write_Data   	;
+	 wire EXMEM_out_WriteRegister	;
 
 	 
 	 EX_MEM EX_MEM (
@@ -188,7 +188,7 @@ module MIPS(
 		 .O_WriteRegister(EXMEM_out_WriteRegister)
     );
 
-
+// =================== Memory ===================
 
 
 endmodule
