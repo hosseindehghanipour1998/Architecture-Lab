@@ -27,6 +27,7 @@ module Data_Mem(
 	output reg [15:0] read_data
     );
 
+
 	reg [7:0] memory [1023:0];
 	
 	integer i;

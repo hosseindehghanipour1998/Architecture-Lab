@@ -1,5 +1,5 @@
 ISim log file
-Running: G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\PC_Test_1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/PC_Test_1_isim_beh.wdb 
+Running: G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\MIPS_Test_1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/MIPS_Test_1_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -22,6 +22,9 @@ available at "www.flexerasoftware.com".
 WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
+WARNING: File "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.v" Line 31.  For instance Execute_Stage/Execute_Mux_2/, width 16 of formal port input0 is not equal to width 3 of actual signal in_rt.
+WARNING: File "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.v" Line 32.  For instance Execute_Stage/Execute_Mux_2/, width 16 of formal port input1 is not equal to width 3 of actual signal in_rd.
+WARNING: File "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.v" Line 38.  For instance Execute_Stage/Execute_Mux_2/, width 16 of formal port out is not equal to width 3 of actual signal O_WriteRegister.
 Time resolution is 1 ps
 # onerror resume
 # wave add /

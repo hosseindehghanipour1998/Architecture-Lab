@@ -28,11 +28,60 @@ module Instruction_Mem(
 	integer i;
 	
 	initial begin 
-		for(i=0;i<256 ; i=i+2)
+	
+		/*
+		for(i=0;i<256 ; i=i+2) begin
 			memory[i]=0;
+		end
 		
-		for(i=1;i<256;i=i+2)
+		for(i=1;i<256;i=i+2) begin
 			memory[i]=i>>1;
+		end 
+		*/
+		
+		memory[1] = 8'b11100001 ;
+		memory[1] = 8'b10001000 ;
+		
+		// add $0,$0,$0 *3
+		memory[1] = 8'b00000000 ;
+		memory[1] = 8'b00000000;
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000;
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000;
+		
+		// add $7,$3,$0
+		memory[1] = 8'b00001100;
+		memory[1] = 8'b01110000;
+				
+		// add $0,$0,$0 *3
+		memory[1] = 8'b00000000 ;
+		memory[1] = 8'b00000000;
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000;
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000;
+	
+
+		// beq $3 , $7 , 10
+		memory[1] = 8'b11001111 ;
+		memory[1] = 8'b10001010 ;
+		
+		// add $0,$0,$0 *3
+		memory[1] = 8'b00000000 ;
+		memory[1] = 8'b00000000;
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000 ;  
+		
+		memory[1] = 8'b00000000;
+		memory[1] = 8'b00000000;
+
+		
 	end
 	
 	assign instruction[15:8]= memory[address];

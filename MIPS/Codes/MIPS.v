@@ -25,7 +25,7 @@ module MIPS(
 	 wire [15:0]   EXMEM_out_BranchTarget         ;	
 	 wire 			Fetch_in_PC_Src ;
 	 wire [15:0]   WriteBack_Stage_WriteData ;
-	 wire 			MEM_WB_out_WriteRegister ;
+	 wire [2:0] 	MEM_WB_out_WriteRegister ;
 	 wire 			MEM_WB_out_RegWrite ;
 	 
 // =========== FETCH ==========================	 
@@ -162,10 +162,10 @@ module MIPS(
 	
 	 wire EXMEM_out_MemtoReg     	;
 	 wire EXMEM_out_RegWrite     	;
-	 wire EXMEM_out_ALUResult    	;
+	 wire [15:0] EXMEM_out_ALUResult    	;
 	 wire EXMEM_out_Zero         	;
-	 wire EXMEM_out_Write_Data   	;
-	 wire EXMEM_out_WriteRegister	;
+	 wire [15:0] EXMEM_out_Write_Data   	;
+	 wire [2:0] EXMEM_out_WriteRegister	;
 
 	 
 	 EX_MEM EX_MEM (
@@ -224,12 +224,12 @@ module MIPS(
 		 .O_ReadData(MEM_WB_out_ReadData), 
 		 .O_ALUResult(MEM_WB_out_ALUResult),
 		 .O_WriteRegister(MEM_WB_out_WriteRegister),
-		 .O_in_RegWrite(MEM_WB_out_RegWrite)
+		 .O_RegWrite(MEM_WB_out_RegWrite)
 		 );
 		 
 // ============== Write Back =============
 
-WriteBack_Stage instance_name (
+WriteBack_Stage WriteBack_Stage (
     .MemtoReg(MEM_WB_out_MemtoReg), 
     .in_ALUResult(MEM_WB_out_ALUResult), 
     .in_ReadData(MEM_WB_out_ReadData), 
