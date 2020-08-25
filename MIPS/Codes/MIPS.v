@@ -22,8 +22,9 @@ module MIPS(
 	input clk 
     );
 // =========== Next Stage Wires
-	 wire EXMEM_out_BranchTarget         ;	
+	 wire [15:0] EXMEM_out_BranchTarget         ;	
 	 wire Fetch_in_PC_Src ;
+	 wire [15:0] WriteBack_Stage_WriteData ;
 	 
 // =========== FETCH ==========================	 
 	wire [15:0] instruction ;
@@ -59,10 +60,10 @@ module MIPS(
 	 Decode_Stage Decode (
 		 // Inputs 
 		 .clk(clk), 
-		 .In_RegWrite(), // From Next Stages
+		 .In_RegWrite(MEM_WB_out_RegWrite), // From Next Stages (MEM_WB)
 		 .instruction(O_instruction), 
-		 .write_register(), // From Next Stages
-		 .write_Data(), // From Next Stages ( WB )
+		 .write_register(MEM_WB_out_WriteRegister), // From Next Stages (MEM_WB)
+		 .write_Data(WriteBack_Stage_WriteData), // From Next Stages ( WB_Stage )
 		 // Outputs
 		 .read_data_1(decode_read_data_1), 
 		 .read_data_2(decode_read_data_2), 
@@ -196,6 +197,8 @@ module MIPS(
 	wire [15:0] MEM_WB_out_ALUResult ;
 	wire [15:0] MEM_WB_out_ReadData ;
 	wire 			MEM_WB_out_MemtoReg ;
+	wire 			MEM_WB_out_WriteRegister ;
+	wire 			MEM_WB_out_RegWrite ;
 	
 	
 	Data_Mem Data_Mem (
@@ -210,14 +213,27 @@ module MIPS(
 
 
 	MEM_WB MEM_WB (
-		 .clk(clk), 
+		 .clk(clk),
+	  	 .in_WriteRegister(EXMEM_out_WriteRegister),
 		 .in_MemtoReg(EXMEM_out_MemtoReg), 
 		 .in_ReadData(MEM_WB_in_ReadData), 
-		 .in_ALUResult(EXMEM_out_ALUResult), 
+		 .in_ALUResult(EXMEM_out_ALUResult),
+		 .in_RegWrite(EXMEM_out_RegWrite),
 		 .O_MemtoReg(MEM_WB_out_MemtoReg), 
 		 .O_ReadData(MEM_WB_out_ReadData), 
-		 .O_ALUResult(MEM_WB_out_ALUResult)
+		 .O_ALUResult(MEM_WB_out_ALUResult),
+		 .O_WriteRegister(MEM_WB_out_WriteRegister),
+		 .O_in_RegWrite(MEM_WB_out_RegWrite)
 		 );
+		 
+// ============== Write Back =============
+
+WriteBack_Stage instance_name (
+    .MemtoReg(MEM_WB_out_MemtoReg), 
+    .in_ALUResult(MEM_WB_out_ALUResult), 
+    .in_ReadData(MEM_WB_out_ReadData), 
+    .out_WriteData(WriteBack_Stage_WriteData)
+    );
 
 
 

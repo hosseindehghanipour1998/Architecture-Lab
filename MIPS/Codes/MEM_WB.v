@@ -23,10 +23,14 @@ module MEM_WB(
 	input 		 in_MemtoReg ,
 	input [15:0] in_ReadData ,
 	input [15:0] in_ALUResult,
+	input [2:0]	 in_WriteRegister ,
+	input 		 in_RegWrite,
 	
 	output  reg				O_MemtoReg,
 	output  reg [15:0] 	O_ReadData,
-	output  reg [15:0] 	O_ALUResult
+	output  reg [15:0] 	O_ALUResult,
+	output  reg [2:0] 	O_WriteRegister,
+	output  reg 			O_RegWrite
     );
 	 
 	 always@(negedge clk ) begin
@@ -34,6 +38,7 @@ module MEM_WB(
 		O_MemtoReg <= in_MemtoReg ;
 		O_ReadData <= in_ReadData ;
 		O_ALUResult <= in_ALUResult ;
+		O_RegWrite <= in_RegWrite;
 		
 	 end
 	 

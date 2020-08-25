@@ -126,6 +126,10 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RegisterFile_Test_1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RegisterFile_Test_2_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="SignExtend.tfi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WriteBack_Stage.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="WriteBack_Stage.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="WriteBack_Stage.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="WriteBack_Stage.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>

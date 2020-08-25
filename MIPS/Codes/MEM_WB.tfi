@@ -7,9 +7,11 @@ MEM_WB instance_name (
     .in_MemtoReg(in_MemtoReg), 
     .in_ReadData(in_ReadData), 
     .in_ALUResult(in_ALUResult), 
+    .in_WriteRegister(in_WriteRegister), 
     .O_MemtoReg(O_MemtoReg), 
     .O_ReadData(O_ReadData), 
-    .O_ALUResult(O_ALUResult)
+    .O_ALUResult(O_ALUResult), 
+    .O_WriteRegister(O_WriteRegister)
     );
 
 

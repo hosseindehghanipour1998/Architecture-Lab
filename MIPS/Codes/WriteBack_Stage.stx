@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
---> Reading design: MEM_WB.prj
+--> Reading design: WriteBack_Stage.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,12 +39,14 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\MEM_WB.v" into library work
-Parsing module <MEM_WB>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\Mux.v" into library work
+Parsing module <Mux>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\WriteBack_Stage.v" into library work
+Parsing module <WriteBack_Stage>.
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.83 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.89 secs
  
 --> 
 
