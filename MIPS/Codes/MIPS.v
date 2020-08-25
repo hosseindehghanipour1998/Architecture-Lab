@@ -22,7 +22,8 @@ module MIPS(
 	input clk 
     );
 // =========== Next Stage Wires
-	 wire EXMEM_out_BranchTarget         ;	 
+	 wire EXMEM_out_BranchTarget         ;	
+	 wire Fetch_in_PC_Src ;
 	 
 // =========== FETCH ==========================	 
 	wire [15:0] instruction ;
@@ -34,8 +35,8 @@ module MIPS(
 
 	Fetch_Stage Fetch (
 		 .clk(clk), 
-		 .PC_Src(), // From Next Stages
-		 .branch_target(EXMEM_out_BranchTarget), // From Next Stages (FILLED)
+		 .PC_Src(Fetch_in_PC_Src), // From Next Stages ( Memory Stage )
+		 .branch_target(EXMEM_out_BranchTarget), // From Next Stages (Execute Stage)
 		 .PC_plus_two(PC_plus_two), 
 		 .instruction(instruction)
     );
@@ -189,6 +190,36 @@ module MIPS(
     );
 
 // =================== Memory ===================
+	assign Fetch_in_PC_Src = EX_out_Zero & EXMEM_out_Branch ;
+	
+	wire [15:0] MEM_WB_in_ReadData ;
+	wire [15:0] MEM_WB_out_ALUResult ;
+	wire [15:0] MEM_WB_out_ReadData ;
+	wire 			MEM_WB_out_MemtoReg ;
+	
+	
+	Data_Mem Data_Mem (
+		 .clk(clk), 
+		 .memRead(EXMEM_out_MemRead), 
+		 .memWrite(EXMEM_out_MemWrite), 
+		 .address(EXMEM_out_ALUResult), 
+		 .write_data(EXMEM_out_Write_Data), 
+		 // output
+		 .read_data(MEM_WB_in_ReadData)
+		 );
+
+
+	MEM_WB MEM_WB (
+		 .clk(clk), 
+		 .in_MemtoReg(EXMEM_out_MemtoReg), 
+		 .in_ReadData(MEM_WB_in_ReadData), 
+		 .in_ALUResult(EXMEM_out_ALUResult), 
+		 .O_MemtoReg(MEM_WB_out_MemtoReg), 
+		 .O_ReadData(MEM_WB_out_ReadData), 
+		 .O_ALUResult(MEM_WB_out_ALUResult)
+		 );
+
+
 
 
 endmodule

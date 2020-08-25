@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+MEM_WB instance_name (
+    .clk(clk), 
+    .in_MemtoReg(in_MemtoReg), 
+    .in_ReadData(in_ReadData), 
+    .in_ALUResult(in_ALUResult), 
+    .O_MemtoReg(O_MemtoReg), 
+    .O_ReadData(O_ReadData), 
+    .O_ALUResult(O_ALUResult)
+    );
+
+
