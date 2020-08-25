@@ -22,9 +22,11 @@ module MIPS(
 	input clk 
     );
 // =========== Next Stage Wires
-	 wire [15:0] EXMEM_out_BranchTarget         ;	
-	 wire Fetch_in_PC_Src ;
-	 wire [15:0] WriteBack_Stage_WriteData ;
+	 wire [15:0]   EXMEM_out_BranchTarget         ;	
+	 wire 			Fetch_in_PC_Src ;
+	 wire [15:0]   WriteBack_Stage_WriteData ;
+	 wire 			MEM_WB_out_WriteRegister ;
+	 wire 			MEM_WB_out_RegWrite ;
 	 
 // =========== FETCH ==========================	 
 	wire [15:0] instruction ;
@@ -197,8 +199,7 @@ module MIPS(
 	wire [15:0] MEM_WB_out_ALUResult ;
 	wire [15:0] MEM_WB_out_ReadData ;
 	wire 			MEM_WB_out_MemtoReg ;
-	wire 			MEM_WB_out_WriteRegister ;
-	wire 			MEM_WB_out_RegWrite ;
+
 	
 	
 	Data_Mem Data_Mem (

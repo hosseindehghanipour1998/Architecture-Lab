@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.11 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: MIPS.prj
 
@@ -55,6 +55,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MI
 Parsing module <ALU_Control>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\ALU.v" into library work
 Parsing module <ALU>.
+Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\WriteBack_Stage.v" into library work
+Parsing module <WriteBack_Stage>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\MEM_WB.v" into library work
 Parsing module <MEM_WB>.
 Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MIPS\Codes\IF_ID.v" into library work
@@ -75,8 +77,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MI
 Parsing module <MIPS>.
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.35 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.74 secs
  
 --> 
 
