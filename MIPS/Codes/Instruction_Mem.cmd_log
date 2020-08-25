@@ -1,1 +1,0 @@
-vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Instruction_Mem.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//Instruction_Mem.v" -module Instruction_Mem -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

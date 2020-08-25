@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/ALU.xst" -ofn "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/ALU.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "ALU.ngc" ALU.ngd  
-map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
-map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
-map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
-vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/ALU.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//ALU.v" -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

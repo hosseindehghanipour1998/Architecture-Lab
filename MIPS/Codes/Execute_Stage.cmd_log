@@ -1,3 +1,0 @@
-vhdtdtfi -lib work {G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.v} -lang verilog -prj MIPS -o Execute_Stage.spl -module Execute_Stage -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family artix7 Execute_Stage.spl {G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.sym} 
-vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/Execute_Stage.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//Execute_Stage.v" -module Execute_Stage -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

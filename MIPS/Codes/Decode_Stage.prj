@@ -1,4 +1,0 @@
-verilog work "SignExtend.v"
-verilog work "RegisterFile.v"
-verilog work "ControlUnit.v"
-verilog work "Decode_Stage.v"
