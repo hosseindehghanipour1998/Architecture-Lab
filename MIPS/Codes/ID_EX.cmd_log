@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/ID_EX.tfi" -lib work "G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes//ID_EX.v" -module ID_EX -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
