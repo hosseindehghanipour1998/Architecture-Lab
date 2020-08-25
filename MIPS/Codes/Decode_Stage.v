@@ -41,7 +41,7 @@ module Decode_Stage(
 		 .write_data(write_Data), 
 		 .read_register_1(instruction[12:10]), 
 		 .read_data_1(read_data_1), 
-		 .read_register_2(instruction[7:9]), 
+		 .read_register_2(instruction[9:7]), 
 		 .read_data_2(read_data_2)
 		 );
 		 

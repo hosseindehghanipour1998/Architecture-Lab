@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.44 secs
  
 --> Parameter xsthdpdir set to G:/GitRepositories/8th Semester/Architecture Lab 2020/MIPS/Codes/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.45 secs
  
 --> Reading design: Decode_Stage.prj
 
@@ -49,8 +49,8 @@ Analyzing Verilog file "G:\GitRepositories\8th Semester\Architecture Lab 2020\MI
 Parsing module <Decode_Stage>.
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.70 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.68 secs
  
 --> 
 
