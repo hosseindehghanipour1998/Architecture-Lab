@@ -1,0 +1,56 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MIPS_Test_4_isim_beh.exe" -prj "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MIPS_Test_4_beh.prj" "work.MIPS_Test_4" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/PC.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Mux.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Instruction_Mem.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/ALU_Control.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/ALU.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/WriteBack_Stage.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MEM_WB.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/IF_ID.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/ID_EX.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Fetch_Stage.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/EX_MEM.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Execute_Stage.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Decode_Stage.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Data_Mem.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MIPS.v" into library work
+Analyzing Verilog file "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MIPS_Test_4.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Execute_Stage.v" Line 68: Size mismatch in connection of port <input0>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Execute_Stage.v" Line 69: Size mismatch in connection of port <input1>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/Execute_Stage.v" Line 70: Size mismatch in connection of port <out>. Formal port size is 16-bit while actual signal size is 3-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module Mux
+Compiling module Instruction_Mem
+Compiling module Fetch_Stage
+Compiling module IF_ID
+Compiling module RegisterFile
+Compiling module SignExtend
+Compiling module ControlUnit
+Compiling module Decode_Stage
+Compiling module ID_EX
+Compiling module ALU
+Compiling module ALU_Control
+Compiling module Execute_Stage
+Compiling module EX_MEM
+Compiling module Data_Mem
+Compiling module MEM_WB
+Compiling module WriteBack_Stage
+Compiling module MIPS
+Compiling module MIPS_Test_4
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable C:/Users/hosse/Desktop/New folder/MIPS_V.2/MIPS/Codes/MIPS_Test_4_isim_beh.exe
+Fuse Memory Usage: 28796 KB
+Fuse CPU Usage: 484 ms
