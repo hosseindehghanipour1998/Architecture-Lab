@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Register_File instance_name (
+    .RS(RS), 
+    .RT(RT), 
+    .RD(RD), 
+    .clk(clk), 
+    .reg_wr(reg_wr), 
+    .REGISTER_1(REGISTER_1), 
+    .REGISTER_2(REGISTER_2), 
+    .WRITE_DATA(WRITE_DATA)
+    );
+
+

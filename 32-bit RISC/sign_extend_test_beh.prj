@@ -1,0 +1,3 @@
+verilog work "Sign_Extend.v"
+verilog work "sign_extend_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

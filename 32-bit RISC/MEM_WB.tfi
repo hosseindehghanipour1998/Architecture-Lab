@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+MEM_WB instance_name (
+    .clk(clk), 
+    .HIT(HIT), 
+    .ALU_RESULT(ALU_RESULT), 
+    .WRITE_REGISTER(WRITE_REGISTER), 
+    .READ_DATA(READ_DATA), 
+    .CONTROL(CONTROL), 
+    .ALU_RESULT_OUT(ALU_RESULT_OUT), 
+    .WRITE_REGISTER_OUT(WRITE_REGISTER_OUT), 
+    .READ_DATA_OUT(READ_DATA_OUT), 
+    .CONTROL_OUT(CONTROL_OUT)
+    );
+
+

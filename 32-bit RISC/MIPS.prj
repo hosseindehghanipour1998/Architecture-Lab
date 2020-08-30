@@ -1,0 +1,5 @@
+verilog work "PC.v"
+verilog work "Instruction_Memory.v"
+verilog work "Cache.v"
+verilog work "Fetch_Stage.v"
+verilog work "MIPS.v"

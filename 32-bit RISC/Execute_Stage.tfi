@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+Execute_Stage instance_name (
+    .REG_DST(REG_DST), 
+    .ALU_SRC(ALU_SRC), 
+    .ALU_OP(ALU_OP), 
+    .READ_DATA_1(READ_DATA_1), 
+    .READ_DATA_2(READ_DATA_2), 
+    .IMMEDIATE(IMMEDIATE), 
+    .RD(RD), 
+    .RT(RT), 
+    .BRANCH_TARGET(BRANCH_TARGET), 
+    .ALU_RESULT(ALU_RESULT), 
+    .ZERO(ZERO), 
+    .WRITE_DATA(WRITE_DATA), 
+    .WRITE_REGISTER(WRITE_REGISTER)
+    );
+
+

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Add instance_name (
+    .INPUT_1(INPUT_1), 
+    .INPUT_2(INPUT_2), 
+    .RESULT(RESULT)
+    );
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/MEM_WB.tfi" -lib work "D:/XilinxProject/New folder/MIPS//MEM_WB.v" -module MEM_WB -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

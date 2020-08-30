@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Write_Back instance_name (
+    .MEM_TO_REG(MEM_TO_REG), 
+    .READ_DATA(READ_DATA), 
+    .ALU_RESULT(ALU_RESULT), 
+    .WRITE_DATA(WRITE_DATA)
+    );
+
+

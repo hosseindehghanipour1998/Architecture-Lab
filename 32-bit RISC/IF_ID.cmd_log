@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/IF_ID.tfi" -lib work "D:/XilinxProject/New folder/MIPS//IF_ID.v" -module IF_ID -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/EX_MEM.tfi" -lib work "D:/XilinxProject/New folder/MIPS//EX_MEM.v" -module EX_MEM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

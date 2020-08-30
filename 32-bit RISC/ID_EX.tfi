@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+ID_EX instance_name (
+    .clk(clk), 
+    .CONTROL(CONTROL), 
+    .IMMEDIATE(IMMEDIATE), 
+    .RD(RD), 
+    .RT(RT), 
+    .CONTROL_OUT(CONTROL_OUT), 
+    .IMMEDIATE_OUT(IMMEDIATE_OUT), 
+    .RD_OUT(RD_OUT), 
+    .RT_OUT(RT_OUT), 
+    .READ_DATA_1_OUT(READ_DATA_1_OUT), 
+    .READ_DATA_2_OUT(READ_DATA_2_OUT)
+    );
+
+

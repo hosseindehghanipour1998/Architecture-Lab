@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+EX_MEM instance_name (
+    .clk(clk), 
+    .CONTROL(CONTROL), 
+    .ZERO(ZERO), 
+    .ALU_RESULT(ALU_RESULT), 
+    .READ_DATA_2(READ_DATA_2), 
+    .DST_REG(DST_REG), 
+    .HIT(HIT), 
+    .CONTROL_OUT(CONTROL_OUT), 
+    .ZERO_OUT(ZERO_OUT), 
+    .ALU_RESULT_OUT(ALU_RESULT_OUT), 
+    .READ_DATA_2_OUT(READ_DATA_2_OUT), 
+    .DST_REG_OUT(DST_REG_OUT)
+    );
+
+

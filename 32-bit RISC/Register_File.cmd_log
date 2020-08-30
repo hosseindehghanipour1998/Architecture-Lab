@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/Register_File.tfi" -lib work "D:/XilinxProject/New folder/MIPS//Register_File.v" -module Register_File -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

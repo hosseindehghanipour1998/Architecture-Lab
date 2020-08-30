@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/Write_Back.tfi" -lib work "D:/XilinxProject/New folder/MIPS//Write_Back.v" -module Write_Back -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

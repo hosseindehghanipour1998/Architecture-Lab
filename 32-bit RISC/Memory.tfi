@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+Memory instance_name (
+    .clk(clk), 
+    .ALU_RESULT(ALU_RESULT), 
+    .READ_DATA_2(READ_DATA_2), 
+    .CONTROL(CONTROL), 
+    .ZERO(ZERO), 
+    .WRITE_REGISTER(WRITE_REGISTER), 
+    .PC_SRC(PC_SRC), 
+    .MEMORY_READ_DATA(MEMORY_READ_DATA), 
+    .ALU_RESULT_WB(ALU_RESULT_WB), 
+    .DST_REG(DST_REG), 
+    .CONTROL_OUT(CONTROL_OUT)
+    );
+
+

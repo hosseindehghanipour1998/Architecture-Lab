@@ -1,0 +1,98 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/XilinxProject/New folder/MIPS/mips_complete_test_isim_beh.exe" -prj "D:/XilinxProject/New folder/MIPS/mips_complete_test_beh.prj" "work.mips_complete_test" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Sign_Extend.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Register_File.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/PC.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Instruction_Memory.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Data_Memory.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Control_Unit.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Cache.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/ALU_control.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/ALU.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Add.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Write_Back.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/MEM_WB.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Memory.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/IF_ID.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/ID_EX.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Fetch_Stage.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/EX_MEM.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Execute_Stage.v" into library work
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/Execute_Stage.v" Line 63: <ALU_CONTROL> is already implicitly declared earlier.
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/Decode_Stage.v" into library work
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/MIPS.v" into library work
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 36: <if_instruction> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 37: <pc_f2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 38: <hit> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 49: <id_instruction> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 50: <pc_r2d> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 70: <pc_d2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 72: <hit_de> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 73: <read_data_1_d2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 74: <immediate> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 75: <rt> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 76: <cnt> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 98: <hit_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 99: <control_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 100: <read_data_1_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 101: <pc_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 102: <immediate_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 103: <rt_r2e> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 127: <zero_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 128: <control_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 129: <branch_target_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 130: <alu_result_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 131: <write_data_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 132: <write_register_e2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 152: <zero_r2m> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 153: <control_r2m> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 154: <alu_result_r2m> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 155: <read_data_2_r2m> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 156: <dst_reg_r2m> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 157: <branch_target_r2f> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 175: <pc_src_m2f> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 176: <memory_read_data_m2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 177: <alu_result_m2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 178: <write_register_m2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 179: <control_m2r> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 194: <memory_read_data_r2w> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 195: <alu_result_r2w> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 196: <write_register_w2d> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 197: <control_r2w> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 206: <write_data_w2d> is already implicitly declared earlier.
+Analyzing Verilog file "D:/XilinxProject/New folder/MIPS/mips_complete_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/XilinxProject/New folder/MIPS/MIPS.v" Line 40: Port HIT_OUT is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module Instruction_Memory
+Compiling module Cache
+Compiling module Fetch_Stage
+Compiling module IF_ID
+Compiling module Control_Unit
+Compiling module Register_File
+Compiling module Sign_Extend
+Compiling module Decode_Stage
+Compiling module ID_EX
+Compiling module Add
+Compiling module ALU_control
+Compiling module ALU
+Compiling module Execute_Stage
+Compiling module EX_MEM
+Compiling module Data_Memory
+Compiling module Memory
+Compiling module MEM_WB
+Compiling module Write_Back
+Compiling module MIPS
+Compiling module mips_complete_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable D:/XilinxProject/New folder/MIPS/mips_complete_test_isim_beh.exe
+Fuse Memory Usage: 28344 KB
+Fuse CPU Usage: 921 ms

@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+Decode_Stage instance_name (
+    .clk(clk), 
+    .INSTRUCTION(INSTRUCTION), 
+    .WRITE_REGISTER(WRITE_REGISTER), 
+    .WRITE_DATA(WRITE_DATA), 
+    .REGISTER_WRITE_Cnt(REGISTER_WRITE_Cnt), 
+    .HIT(HIT), 
+    .READ_DATA_1(READ_DATA_1), 
+    .READ_DATA_2(READ_DATA_2), 
+    .IMMEDIATE(IMMEDIATE), 
+    .RT(RT), 
+    .RD(RD), 
+    .Cnt(Cnt), 
+    .HIT_OUT(HIT_OUT)
+    );
+
+

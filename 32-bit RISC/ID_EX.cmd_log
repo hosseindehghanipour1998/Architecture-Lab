@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/ID_EX.tfi" -lib work "D:/XilinxProject/New folder/MIPS//ID_EX.v" -module ID_EX -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/ID_EX.tfi" -lib work "D:/XilinxProject/New folder/MIPS//ID_EX.v" -module ID_EX -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

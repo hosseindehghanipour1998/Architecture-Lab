@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/Execute_Stage.v" Line 63: &lt;<arg fmt="%s" index="1">ALU_CONTROL</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 36: &lt;<arg fmt="%s" index="1">if_instruction</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 37: &lt;<arg fmt="%s" index="1">pc_f2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 38: &lt;<arg fmt="%s" index="1">hit</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 49: &lt;<arg fmt="%s" index="1">id_instruction</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 50: &lt;<arg fmt="%s" index="1">pc_r2d</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 70: &lt;<arg fmt="%s" index="1">pc_d2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 72: &lt;<arg fmt="%s" index="1">hit_de</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 73: &lt;<arg fmt="%s" index="1">read_data_1_d2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 74: &lt;<arg fmt="%s" index="1">immediate</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 75: &lt;<arg fmt="%s" index="1">rt</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 76: &lt;<arg fmt="%s" index="1">cnt</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 98: &lt;<arg fmt="%s" index="1">hit_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 99: &lt;<arg fmt="%s" index="1">control_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 100: &lt;<arg fmt="%s" index="1">read_data_1_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 101: &lt;<arg fmt="%s" index="1">pc_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 102: &lt;<arg fmt="%s" index="1">immediate_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 103: &lt;<arg fmt="%s" index="1">rt_r2e</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 127: &lt;<arg fmt="%s" index="1">zero_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 128: &lt;<arg fmt="%s" index="1">control_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 129: &lt;<arg fmt="%s" index="1">branch_target_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 130: &lt;<arg fmt="%s" index="1">alu_result_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 131: &lt;<arg fmt="%s" index="1">write_data_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 132: &lt;<arg fmt="%s" index="1">write_register_e2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 152: &lt;<arg fmt="%s" index="1">zero_r2m</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 153: &lt;<arg fmt="%s" index="1">control_r2m</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 154: &lt;<arg fmt="%s" index="1">alu_result_r2m</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 155: &lt;<arg fmt="%s" index="1">read_data_2_r2m</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 156: &lt;<arg fmt="%s" index="1">dst_reg_r2m</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 157: &lt;<arg fmt="%s" index="1">branch_target_r2f</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 175: &lt;<arg fmt="%s" index="1">pc_src_m2f</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 176: &lt;<arg fmt="%s" index="1">memory_read_data_m2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 177: &lt;<arg fmt="%s" index="1">alu_result_m2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 178: &lt;<arg fmt="%s" index="1">write_register_m2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 179: &lt;<arg fmt="%s" index="1">control_m2r</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 194: &lt;<arg fmt="%s" index="1">memory_read_data_r2w</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 195: &lt;<arg fmt="%s" index="1">alu_result_r2w</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 196: &lt;<arg fmt="%s" index="1">write_register_w2d</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 197: &lt;<arg fmt="%s" index="1">control_r2w</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 206: &lt;<arg fmt="%s" index="1">write_data_w2d</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/XilinxProject/New folder/MIPS/MIPS.v" Line 40: Port <arg fmt="%s" index="1">HIT_OUT</arg> is not connected to this instance
+</msg>
+
+</messages>
+

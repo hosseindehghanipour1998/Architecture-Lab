@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS -o "D:/XilinxProject/New folder/MIPS/Execute_Stage.tfi" -lib work "D:/XilinxProject/New folder/MIPS//Execute_Stage.v" -module Execute_Stage -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
